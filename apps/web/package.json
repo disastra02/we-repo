@@ -1,0 +1,37 @@
+{
+  "name": "we-web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "font-awesome": "^4.7.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitest/eslint-plugin": "1.1.10",
+    "@vue/test-utils": "^2.4.6",
+    "eslint": "^9.14.0",
+    "eslint-plugin-vue": "^9.30.0",
+    "jsdom": "^25.0.1",
+    "vite": "^6.0.1",
+    "vite-plugin-vue-devtools": "^7.6.5",
+    "vitest": "^2.1.5"
+  }
+}

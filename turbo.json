@@ -1,0 +1,12 @@
+{
+    "tasks": {
+        "build": {
+            "dependsOn": ["^build"],
+            "outputs": [".turbo"]
+        },
+        "dev": {
+            "cache": false,
+            "persistent": true
+        }
+    }
+}

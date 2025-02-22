@@ -1,0 +1,19 @@
+{
+  "name": "we-monorepo",
+  "private": true,
+  "packageManager": "bun@1.1.40",
+  "workspaces": ["apps/*"],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "turbo": "^2.4.2"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build"
+  }
+}

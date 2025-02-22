@@ -1,0 +1,39 @@
+/* Base custom css */
+.list-text {
+  padding: 3px 6px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.list-text:hover {
+  background: #A5A5A5;
+  color: white;
+}
+
+.list-group-item {
+  border: none !important;
+  padding-bottom: 0 !important;
+  padding-right: 0 !important;
+}
+
+.list-group-item.item-parent-folder:last-child {
+  padding-bottom: 0.5rem !important;
+}
+
+.card-folder {
+  cursor: pointer;
+}
+
+.i-icon-folder {
+  color: #F8D775;
+  font-size: 2.5rem;
+}
+
+.i-icon-file {
+  color: #A5A5A5;
+  font-size: 2.5rem;
+}
+
+.yellow-folder {
+  color: #F8D775;
+}
