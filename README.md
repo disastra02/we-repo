@@ -9,25 +9,29 @@
 
 Ikuti langkah-langkah berikut untuk menginstal aplikasi ini.
 
-1. Install dependensi.
+1. Clone Repository
+```sh
+git clone https://github.com/disastra02/we-repo.git
+```
+2. Install dependensi.
 ```sh
 bun install
 ```
-2. Salin file .env.example menjadi .env pada folder apps/api.
+3. Salin file .env.example menjadi .env pada folder apps/api.
 ```sh
 cp apps/api/.env.example apps/api/.env
 ```
-3. Konfigurasi file .env sesuaikan dengan yang dimiliki.
-4. Jalankan migrasi database.
+4. Konfigurasi file .env sesuaikan dengan yang dimiliki.
+5. Jalankan migrasi database.
 ```sh
 cd apps/api
 bun prisma migrate dev
 ```
-5. Jalankan seeder database untuk data awal atau sebagai data contoh.
+6. Jalankan seeder database untuk data awal atau sebagai data contoh.
 ```sh
 bun run prisma/seed.ts
 ```
-6. Jalankan server di base folder.
+7. Jalankan server di base folder.
 ```sh
 cd ../..
 bun run dev
